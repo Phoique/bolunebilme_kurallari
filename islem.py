@@ -1,4 +1,5 @@
 import kurallar as krl # Yazdığımız bölünebilme kuralları modülünü dahil ettik.
+
 """
  _____  _           _                     ______ 
 |  __ \| |         (_)                  |____  |
@@ -10,9 +11,9 @@ import kurallar as krl # Yazdığımız bölünebilme kuralları modülünü dah
                          |_|                 
 """
 
-sayi = "10"
-dizi = [int(i) for i in sayi]
-test = krl.bolunebilme_kurallar(dizi)
-print(test.iki_ile())
-print(test.on_ile())
-print(test.uc_ile())
+sayi = 10
+
+test = krl.bolunebilme_kurallar(sayi)
+print(test.two())
+print(test.ten())
+print(test.three())
