@@ -1,5 +1,4 @@
-import kurallar as krl # Yazdığımız bölünebilme kuralları modülünü dahil ettik.
-
+import kurallar as krl
 """
  _____  _           _                     ______ 
 |  __ \| |         (_)                  |____  |
@@ -11,9 +10,8 @@ import kurallar as krl # Yazdığımız bölünebilme kuralları modülünü dah
                          |_|                 
 """
 
-sayi = 10
+sayi = 12
 
 test = krl.bolunebilme_kurallar(sayi)
-print(test.two())
-print(test.ten())
-print(test.three())
+
+print(test.all())
