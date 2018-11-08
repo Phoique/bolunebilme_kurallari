@@ -1,5 +1,3 @@
-
-
 from functools import reduce
 
 class remainingCalculation():
@@ -140,4 +138,3 @@ eleven: {eleven}
                 ten = self.ten(),
                 eleven = self.eleven()
                 )
-    

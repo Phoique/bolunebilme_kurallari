@@ -3,7 +3,6 @@ sys.path.append("../calculation")
 import sys;sys.path.append("calculation")
 import calculation 
 
-
 print("""
  _____  _           _                     ______ 
 |  __ \| |         (_)                  |____  |
